@@ -15,7 +15,7 @@ const FoodItem = () => {
 
   return (
     <div className="max-w-[1640px]  mx-auto flex justify-center items-center p-4">
-      <div className="w-[50%] mt-2">
+      <div className=" mt-2 w-[100%]">
         {products.map((e) => {
           if (e.id === +params.ProductId)
             return (
